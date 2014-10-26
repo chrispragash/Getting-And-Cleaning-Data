@@ -1,0 +1,15 @@
+R script uses the following variables to complete this exercise:
+
+To merge the training and test sets variables used are as follows:
+ 
+    XtrainSet - read from the x_train.txt
+    XtestSet - read from the x_test.txt
+    XcombSet - combines the XtrainSet and XtestSet using rbind
+
+Similar variables are used to combine the Subject and the Y test and train sets. rbind is used to combine the sets
+
+-   "featuresTable" reads features.txt and extracts only the measurements on the mean and standard deviation for each measurement into "indices_of_good_features".
+
+-    "activities" reads activity_labels.txt and applies descriptive activity names to name the activities in the data set
+
+-    "uniqueSubjects", "numSubjects", "numActivities" and "numCols" are variables used to extract the unique subjects, number of subjects, number of activities and number of columns from the merged subject dataset.
